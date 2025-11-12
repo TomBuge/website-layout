@@ -9,7 +9,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px 100px 60px;
+    padding: 20px 200px 60px;
 }
 
 .header {
@@ -33,6 +33,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    max-width: 600px;
 }
 
 .hero-image {
@@ -82,6 +83,58 @@ button {
     font-weight: 900;
     font-size: 18px;
     border-radius: 5px;
-
 }
+
+.title {
+    color: #1F2937;
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    margin: 50px;
+}
+
+.info {
+    display: flex;
+    margin: 50px 100px;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 176px;
+    height: 176px;
+    border: 5px solid #3882f6 ;
+    border-radius: 16px;
+}
+
+.text {
+    width: 176px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.section-one {
+    padding: 20px 0 100px;
+}
+
+.section-two {
+    background-color: #E5E7EB;
+    padding: 100px 450px; 
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author {
+    text-align: end;
+    font-weight: 900;
+}
+
+
 
