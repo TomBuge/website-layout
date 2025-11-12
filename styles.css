@@ -76,15 +76,6 @@ a {
     color: #F9FAF8;
 }
 
-button {
-    width: 100px;
-    background-color: #3882f6;
-    color: #F9FAF8;
-    font-weight: 900;
-    font-size: 18px;
-    border-radius: 5px;
-}
-
 .title {
     color: #1F2937;
     text-align: center;
@@ -136,5 +127,43 @@ button {
     font-weight: 900;
 }
 
+.modal {
+    background-color: #3882f6;
+    display:flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+    margin: 120px 300px;
+    border-radius: 8px;
+    align-items: center;
+}
 
+.modal-title {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+}
 
+.modal-button {
+    border: 2px solid #F9FAF8;        
+    width: 150px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 800;
+    height: 40px;
+}
+
+.modal-text {
+    max-width: 500px;
+}
+
+.button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 120px;
+    padding: 5px 20px;
+}
