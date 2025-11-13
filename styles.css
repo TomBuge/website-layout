@@ -21,7 +21,7 @@
 .hero-main {
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex: 0 1 auto;
     gap: 24px;
     max-height: 250px;
@@ -33,12 +33,13 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .hero-image {
     flex: 1 1 0;
-    min-width: 0;   
+    min-width: 0;
+    max-width: 600px;   
 }
 
 img {
@@ -74,6 +75,7 @@ a {
     font-weight: 900;
     font-size: 24px;
     color: #F9FAF8;
+    
 }
 
 .title {
@@ -166,4 +168,12 @@ a {
     border-radius: 5px;
     width: 120px;
     padding: 5px 20px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 50px;
+    margin: 0;
 }
